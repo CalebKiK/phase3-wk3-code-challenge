@@ -1,5 +1,5 @@
 from faker import Faker
-from models import Band, Venue, Concert
+from models import Band, Venue, Concert, band_venue
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
